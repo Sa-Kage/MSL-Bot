@@ -35,10 +35,6 @@ namespace MSL_Bot
 			// The InitializeComponent() call is required for Windows Forms designer support.
 			//
 			InitializeComponent();
-			
-			//
-			// TODO: Add constructor code after the InitializeComponent() call.
-			//
 		}
 		
 		private MenuItem[] InitializeMenu()
@@ -64,5 +60,17 @@ namespace MSL_Bot
 		{
 			MessageBox.Show("The icon was double clicked");
 		}
+		
+		void StartButtonClick(object sender, EventArgs e)
+		{
+			// TODO: Implement StartButtonClick
+		}
+		
+		void ExportLogBtnClick(object sender, EventArgs e)
+		{
+			// TODO: Implement ExportLogBtnClick
+		}
+		
+		// TODO: Add method for adding log messages
 	}
 }
