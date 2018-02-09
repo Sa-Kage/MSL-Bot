@@ -1,10 +1,10 @@
 ﻿/*
  * Created by SharpDevelop.
- * Author: Alexander Lübbe
+ * Author: Sa'Kagé
  * Date: 05.02.2018
  * Time: 21:54
  */
-namespace MSL_Bot
+namespace MSL_Bot.GUI
 {
 	partial class MainForm
 	{

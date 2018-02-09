@@ -1,12 +1,14 @@
 ﻿/*
  * Created by SharpDevelop.
- * Author: Alexander Lübbe
+ * Author: Sa'Kagé
  * Date: 05.02.2018
  * Time: 21:54
  */
 using System;
 using System.Windows.Forms;
 using System.Threading;
+
+using MSL_Bot.GUI;
 
 namespace MSL_Bot
 {
@@ -23,7 +25,7 @@ namespace MSL_Bot
 		{
 			Application.EnableVisualStyles();
 			Application.SetCompatibleTextRenderingDefault(false);
-			Application.Run(new MainForm());
+			Application.Run(new GUI.MainForm());
 		}
 	}
 }
